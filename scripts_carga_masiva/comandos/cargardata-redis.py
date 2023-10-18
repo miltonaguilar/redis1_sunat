@@ -4,7 +4,10 @@ import time
 import redis
 
 # Conecta con el servidor de Redis
-r = redis.StrictRedis(host='localhost', port=6379, db=0)
+r = redis.Redis(
+  host='redis-18871.c13.us-east-1-3.ec2.cloud.redislabs.com',
+  port=18871,
+  password='ouu9GVbgA4rstxME9ZgqqMGFaseZ6Env')
 
 def generate_hash(length=16):
     characters = string.ascii_letters + string.digits

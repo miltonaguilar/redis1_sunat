@@ -1,7 +1,7 @@
 import random
 import string
 
-CANTIDAD = 1000
+CANTIDAD = 50
 
 # Función para generar una contraseña aleatoria
 def generate_password(length=8):

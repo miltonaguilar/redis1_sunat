@@ -63,7 +63,6 @@ function redisLink() {
         'port'   => 18871,
         'password' => 'ouu9GVbgA4rstxME9ZgqqMGFaseZ6Env'
     ];
-   
     $r = new Predis\Client($options);
 
     //Conexión a localhost
