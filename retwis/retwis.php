@@ -59,9 +59,9 @@ function redisLink() {
 
     $options = [
         'scheme' => 'tcp',
-        'host'   => 'redis-16482.c15.us-east-1-2.ec2.cloud.redislabs.com',
-        'port'   => 16482,
-        'password' => 'u7kaMTO2MmgRj3gkRe8pvbVSfcn5C2M2'
+        'host'   => 'redis-18871.c13.us-east-1-3.ec2.cloud.redislabs.com',
+        'port'   => 18871,
+        'password' => 'ouu9GVbgA4rstxME9ZgqqMGFaseZ6Env'
     ];
    
     $r = new Predis\Client($options);
